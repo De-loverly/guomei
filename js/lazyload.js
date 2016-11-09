@@ -1,6 +1,6 @@
 window.onload=function(){
-	var j = jQuery.noConflict();
-	j("img").lazyload({
+	
+	$("img").lazyload({
 	 	   effect : "fadeIn",
 	 	   event:"scroll",
 	 	   threshold:200
